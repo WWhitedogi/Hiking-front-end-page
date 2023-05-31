@@ -1,0 +1,13 @@
+footer {
+  padding: 0.3rem 1rem 0.3rem 1rem;
+  border-top: 1px solid black;
+
+  text-align: center;
+
+  background-color: rgb(174, 140, 140);
+}
+
+footer .line {
+  margin: 0rem 5rem 0rem 5rem;
+  border-top: 3px solid black;
+}

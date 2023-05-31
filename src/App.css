@@ -1,0 +1,31 @@
+.app {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  height: 100%;
+  --grey0:#F5F5F5;
+  --green:#556B2F;
+  --yellow0: #FADC57;
+}
+
+/**
+
+skiplink
+
+*/
+
+.skip-to-main-content-link {
+  position: absolute;
+  left: -9999px;
+  z-index: 999;
+  padding: 1em;
+  background-color: black;
+  color: white;
+  opacity: 0;
+}
+
+.skip-to-main-content-link:focus {
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 1;
+}

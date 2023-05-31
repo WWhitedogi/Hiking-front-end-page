@@ -1,0 +1,76 @@
+main {
+  background-image: linear-gradient(to left, #D7CCC8, #CDB7B5, #C0B0A6, #B3A397, #A59588);
+  
+  padding-bottom: 2rem;
+}
+
+
+
+/**
+
+Title 2
+
+*/
+
+.title2 {
+  text-align: center;
+}
+
+.titleto h2 {
+  font-size: 3rem;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 5px rgb(242, 225, 225), 2px 2px 3px rgb(242, 231, 231);
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+/**
+
+Texts
+
+*/
+
+.texts p {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/**
+
+Join form
+
+*/
+
+form {
+  display: flex;
+  flex-direction: column;
+
+  padding: 3rem 0;
+
+  background-image: linear-gradient(to left, #D7CCC8, #CDB7B5, #C0B0A6, #B3A397, #A59588);
+}
+
+form * {
+  margin: 0.5rem auto;
+}
+
+form button {
+  margin-top: 3rem;
+
+  width: 10rem;
+  height: 2rem;
+  border: 0;
+
+  font-weight: bolder;
+
+  color: white;
+  background-color: black;
+}
+
+.validation-failure {
+  padding: 0.5rem;
+  margin-bottom: 0;
+  border: 1px solid red;
+
+  color: red;
+}

@@ -1,0 +1,68 @@
+.carousel {
+  position: relative;
+
+  padding-bottom: 1rem;
+
+  height: 60vh;
+
+}
+
+
+.image {
+  width: 80%;
+    height: 100%;
+    border-radius: 5%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.carousel-arrow {
+  position: absolute;
+
+  height: 10rem;
+  width: 5rem;
+
+  border: none;
+  background-color: inherit;
+
+  top: 35%;
+
+  font-size: 5rem;
+  color: rgb(182, 90, 90);
+
+  cursor: pointer;
+}
+
+.carousel-arrow:hover {
+  color: white;
+}
+
+.right-arrow {
+  right: 5%;
+}
+
+.left-arrow {
+  left: 5%;
+}
+
+.slide {
+  opacity: 0;
+}
+
+.slide.active {
+  height: 100%;
+  opacity: 1;
+}
+
+@media screen and (max-width: 30rem) {
+  .carousel {
+    height: 30vh;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .slide.active {
+    transition-duration: 1s;
+  }
+}

@@ -1,0 +1,47 @@
+.panels {
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+.panel {
+  display: flex;
+  flex-direction: row;
+
+  border: 1px solid dotted white;
+  border-radius: 5%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+
+  margin-bottom: 1rem;
+  padding-right: 1rem;
+
+  gap: 3rem;
+
+  background-color:rgb(207, 228, 240);
+}
+
+
+
+.panel__img_container {
+  width: fit-content;
+  height:fit-content ;
+}
+
+.panel img {
+  width: 40%;
+  height: 100%;
+  object-fit: cover;
+
+  border-radius: 10px 0px 0px 10px;
+
+  float: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .panel:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    transition-timing-function:cubic-bezier(0.23, 1, 0.320, 1);
+  }
+
+}
